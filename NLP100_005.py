@@ -15,4 +15,3 @@ def word_bigram(M):
 M = N.split()
 word_bigram(M)
 bigram(N)
-#trigram(N)
