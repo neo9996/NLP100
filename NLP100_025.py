@@ -20,5 +20,5 @@ pattern = r'^(?:\|)(.*)\s=\s(.*?)$'
 repatter = re.compile(pattern, re.MULTILINE)
 answer = repatter.findall(sentence[0])
 
-for i in answer:
-    print(i)
+for k in answer:
+    print(k)
